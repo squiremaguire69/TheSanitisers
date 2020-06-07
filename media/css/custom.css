@@ -1,3 +1,9 @@
+#bodytext1 {
+    font-size: 1.5em;
+    font-stretch: expanded;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 #phone {
     margin-left: 100px;
 }
@@ -10,9 +16,8 @@
 
 #logo {
    display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 60%;
+   margin-left: 0;
+   margin-right: 0;
 }
 
 .subheader {
@@ -22,11 +27,14 @@
     font-size: 12px;
 }
 
-#section_header .h2 {
+#section_header {
     text-align: center;
     font-weight: bold;
-    font-size: 4vw;
+    font-size: 5em;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
+
 
 #footer {
     background-image: url("media/images/Sanitisers_Full_Logo.png");
@@ -45,12 +53,44 @@
 
 #img_text {
     position: absolute;
-    top: 30%;
-    left: 20%;
+    top: 50%;
+    left: 50%;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
-    transform: translate(-30%, -20%);
+    transform: translate(-50%, -50%);
+}
+
+#title {
+    font-size: 5em;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    transform: translate(-50%, -50%);
+}
+
+#title_banner {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    transform: translate(-10%, -50%);
+    font-size: 5em;
+    
+}
+
+#calltoaction {
+    margin: auto;
+    width:50%;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 3em;
 }
 
 #calltoaction1 {
@@ -60,29 +100,26 @@
     transform: translate(-50%, -20%);
 }
 
-#title_banner {
-   
-    
- 
-   
-}
-
 #inner_titlebox {
-    color: #ffffff;
-    font-size: 3vw;
+    color: #000000;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 4vw;
     text-align: center;
-    background-color: red;
-    margin-top: 50px;
+    background-color: yellow;
+    margin-top 50px;
     margin-bottom: 50px;
+    padding: 50px 100px 50px 100px;
 }
 
 #NSAI_badge {
-    width: 75%;
-    margin-left: 30%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     margin-bottom: 50px;
     margin-top: 50px;
-    font-size: medium;
+    font-size: 1.5em;
    
 }
 
@@ -93,9 +130,30 @@
     margin-top: 10px;
     border-width: thin;
     border-color: blue;
+}
+
+#ctabutton {
+    font-size: 1em;
+    margin: auto;
+}
+#why {
+    background-color: yellow;
+    border-style: inset;
+    border-color: #000000;
+}
+
+#whyli {
+    font-size: 1.5em;
+    font-stretch: expanded;
+    font-weight: bold
+}
+
+#coverage {
+    width: 100%;
     
 }
 
+/*Contact Page Settings*/
 .header {
     color: #36A0FF;
     font-size: 27px;
