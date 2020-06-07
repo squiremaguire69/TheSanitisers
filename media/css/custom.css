@@ -1,0 +1,124 @@
+#phone {
+    margin-left: 100px;
+}
+
+#intro {
+    background-image: url("media/images/Sanitisers_Full_Logo.png");
+    background-repeat: no-repeat;
+    
+}
+
+#logo {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 60%;
+}
+
+.subheader {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 12px;
+    font-size: 12px;
+}
+
+#section_header .h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 4vw;
+}
+
+#footer {
+    background-image: url("media/images/Sanitisers_Full_Logo.png");
+    background-repeat: no-repeat;
+}
+
+#contact_banner {
+    background-color: white;
+}
+
+#mainimage {
+    position: relative;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#img_text {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    transform: translate(-30%, -20%);
+}
+
+#calltoaction1 {
+    position: absolute;
+    top: 80%;
+    left:50%;
+    transform: translate(-50%, -20%);
+}
+
+#title_banner {
+   
+    
+ 
+   
+}
+
+#inner_titlebox {
+    color: #ffffff;
+    font-size: 3vw;
+    text-align: center;
+    background-color: red;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#NSAI_badge {
+    width: 75%;
+    margin-left: 30%;
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: medium;
+   
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-width: thin;
+    border-color: blue;
+    
+}
+
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+#contact-form {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    background: #00cbff;
+}
+
+.form-group {
+    margin-left: auto;
+    padding-left: 250px;
+}
+
+#formsubmit {
+    padding-left: 0px;
+}
