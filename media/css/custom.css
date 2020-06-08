@@ -65,6 +65,16 @@
     #mainimage {
         margin-top: 100px;
     }
+    #title1 {
+        font-size: 4vw;
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        transform: translate(-50%, -50%);
+    }
 }
 
 #img_text {
@@ -83,6 +93,17 @@
     position: absolute;
     top: 20%;
     left: 70%;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    transform: translate(-50%, -50%);
+}
+
+#title1 {
+    font-size: 4vw;
+    position: absolute;
+    top: 30%;
+    left: 30%;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
