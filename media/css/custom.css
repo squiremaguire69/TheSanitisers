@@ -8,7 +8,7 @@
     margin-left: 100px;
 }
 
-#email {
+#email1 {
     margin-left: 100px;
 }
 
@@ -61,21 +61,7 @@
     padding-right: 0px;
 }
 
-@media only screen and (max-width: 720px) {
-    #mainimage {
-        margin-top: 200px;
-    }
-    #title1 {
-        font-size: 4vw;
-        position: absolute;
-        top: 30%;
-        left: 30%;
-        color: white;
-        padding-left: 20px;
-        padding-right: 20px;
-        transform: translate(-50%, -50%);
-    }
-}
+
 
 #img_text {
     font-size: 4vw;
@@ -138,16 +124,22 @@
     transform: translate(-50%, -20%);
 }
 
-#inner_titlebox {
-    color: #000000;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 4vw;
-    text-align: center;
-    background-color: yellow;
-    margin-top 50px;
-    margin-bottom: 50px;
-    padding: 50px 100px 50px 100px;
+/*#inner_titlebox {*/
+/*    color: #000000;*/
+/*    font-style: italic;*/
+/*    font-weight: bold;*/
+/*    font-size: 4vw;*/
+/*    text-align: center;*/
+/*    background-color: yellow;*/
+/*    margin-top 50px;*/
+/*    margin-bottom: 50px;*/
+/*    padding: 50px 100px 50px 100px;*/
+/*}*/
+
+#cert {
+    margin: 10px;
+    border: 2px solid blue;
+    padding: 0;
 }
 
 #NSAI_badge {
@@ -202,7 +194,8 @@
 #whyli {
     font-size: 2vw;
     font-stretch: expanded;
-    font-weight: bold
+    font-weight: bold;
+    line-height: 200%;
 }
 
 #coverage {
@@ -230,10 +223,96 @@
 }
 
 .form-group {
-    margin-left: auto;
+    margin-left: 0px;
     padding-left: 250px;
 }
 
 #formsubmit {
     padding-left: 0px;
+}
+
+@media only screen and (max-width: 720px) {
+    #mainimage {
+        margin-top: 200px;
+    }
+
+    #title1 {
+        font-size: 6vw;
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        transform: translate(-50%, -50%);
+    }
+
+    #title {
+        font-size: 8vw;
+        position: absolute;
+        top: 20%;
+        left: 70%;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        transform: translate(-50%, -50%);
+    }
+
+    #bodytext1 {
+        font-size: 4vw;
+        font-stretch: expanded;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #covid {
+        padding-left: 15%;
+    }
+
+    #whyli {
+        font-size: 4vw;
+        font-stretch: expanded;
+        font-weight: bold;
+        line-height: 200%;
+        margin-top: 20px;
+    }
+
+    #why {
+        background-color: yellow;
+        border-style: inset;
+        border-color: #000000;
+        margin-top: 30px;
+    }
+    #section_header {
+        text-align: center;
+        font-weight: bold;
+        font-size: 6vw;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #NSAI_badge {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-size: 4vw;
+        background-color: yellow;
+        text-align: center;
+    }
+
+    #calltoaction {
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 4vw;
+    }
+    .form-group {
+    margin-left: 0px;
+    padding-left: 0px;
+    }    
 }
